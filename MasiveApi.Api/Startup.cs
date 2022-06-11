@@ -36,7 +36,7 @@ namespace MasiveApi.Api
                 .AddControllers()
                 .AddFluentValidation(); 
 
-            //Se registran las dependencias del proyecto Masive.Application
+            //Se registran las dependencias del proyecto 
             services.AddApplicationServices();
 
             //Enlace de base de datos
